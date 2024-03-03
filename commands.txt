@@ -1,0 +1,25 @@
+mkdir library
+django-admin startproject django_project .
+python manage.py migrate
+(.venv) > python manage.py runserver
+python manage.py startapp books
+add to setting.py -> 'books.apps.BooksConfig'
+new app files: models -> Admin -> views -> urls -> templates -> tests
+model: add model to models.py -> makemigrations -> migrate
+	python manage.py makemigrations books
+
+admin:
+	python manage.py createsuperuser
+	in admin.py: python manage.py createsuperuser
+views:
+	listview 
+urls:
+	- add path("", include("books.urls")) to django_project/urls.py
+	- create books/urls.py file
+	- add path("", BookListView.as_view(), name="home") to books/urls.py
+templates:
+	mkdir books/templates
+	mkdir books/templates/books
+	fill books/templates/books/book_list.html
+tests:
+	
