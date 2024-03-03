@@ -1,0 +1,12 @@
+-i https://pypi.org/simple
+asgiref==3.7.2 ; python_version >= '3.7'
+black==24.2.0
+click==8.1.7 ; python_version >= '3.7'
+django==5.0.2
+mypy-extensions==1.0.0 ; python_version >= '3.5'
+packaging==23.2 ; python_version >= '3.7'
+pathspec==0.12.1 ; python_version >= '3.8'
+platformdirs==4.2.0 ; python_version >= '3.8'
+sqlparse==0.4.4 ; python_version >= '3.5'
+tomli==2.0.1 ; python_version < '3.11'
+typing-extensions==4.10.0 ; python_version < '3.11'
