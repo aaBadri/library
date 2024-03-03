@@ -22,4 +22,10 @@ templates:
 	mkdir books/templates/books
 	fill books/templates/books/book_list.html
 tests:
+	fill test.py
+-------------------------------
+- python -m pip install djangorestframework
+- create apis app
+- add to settings
+- 
 	
