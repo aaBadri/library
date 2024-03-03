@@ -27,5 +27,8 @@ tests:
 - python -m pip install djangorestframework
 - create apis app
 - add to settings
-- 
+- add to urls
+- views
+- serializers
+- test: python manage.py test apis
 	
